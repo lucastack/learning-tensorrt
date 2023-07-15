@@ -30,7 +30,6 @@ def main(args):
     )
     input_tensor = preprocess(input_image)
     input_batch = input_tensor.unsqueeze(0)
-
     tensor1 = numpy_helper.from_array(input_batch.numpy())
     with open(args.input_tensor, "wb") as f:
         f.write(tensor1.SerializeToString())
