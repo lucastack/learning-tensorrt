@@ -1,4 +1,10 @@
-# learning-tensorrt
+# Description
+
+This repo contains my study of Tensor RT
+
+I'm following [this](https://developer.nvidia.com/tensorrt-getting-started) guide.  
+
+# Try it out
 
 1. Clone this repo
 
