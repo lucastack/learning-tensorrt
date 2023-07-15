@@ -16,3 +16,9 @@ RUN cd onnx && \
     && cmake .. \
     && make \
     && make install
+
+COPY tensorrt /tmp/tensorrt
+
+RUN cd /tmp/tensorrt && \
+    make clean && make && \
+    mv simpleOnnx /usr/local/bin

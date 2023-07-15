@@ -23,4 +23,8 @@ This folder contains my code from [this](https://developer.nvidia.com/blog/speed
 
     `bash prepare_data.sh`
 
+5. Import the ONNX model into TensorRT, generate the engine, and perform inference 
+    
+    `simpleOnnx unet.onnx fp16 test_data_set_0/input_0.pb`
+
 
